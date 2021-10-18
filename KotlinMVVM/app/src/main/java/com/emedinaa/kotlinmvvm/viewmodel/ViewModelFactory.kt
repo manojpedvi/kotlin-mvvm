@@ -7,6 +7,7 @@ import com.emedinaa.kotlinmvvm.model.MuseumRepository
 /**
  * @author Eduardo Medina
  */
+
 class ViewModelFactory(private val repository: MuseumRepository) : ViewModelProvider.Factory {
 
     @Suppress("UNCHECKED_CAST")
