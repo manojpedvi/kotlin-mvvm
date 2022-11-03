@@ -1,15 +1,15 @@
 //https://kotlinlang.org/docs/releases.html#release-details
 buildscript {
-    ext.kotlin_version = '1.4.30'
+    ext.kotlin_version = '1.6.0'
     repositories {
         mavenCentral()
         google()
-        jcenter()
+        mavenCentral()
         
     }
     dependencies {
         //https://developer.android.com/studio/releases/gradle-plugin
-        classpath 'com.android.tools.build:gradle:4.0.0'
+        classpath 'com.android.tools.build:gradle:7.2.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -17,8 +17,14 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
-        
+        mavenCentral()
+    }
+
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+        kotlinOptions {
+            freeCompilerArgs = ['-Xjvm-default=enable'] //enable or compatibility
+            jvmTarget = "1.8"
+        }
     }
 }
 
@@ -28,9 +34,9 @@ task clean(type: Delete) {
 
 ext {
 
-    minSdkVersion = 14
-    targetSdkVersion = 28
-    compileSdkVersion = 28
+    minSdkVersion = 21
+    targetSdkVersion = 33
+    compileSdkVersion = 33
 
     androidXVersion = '1.0.0'
     appCompatVersion = '1.0.2'
