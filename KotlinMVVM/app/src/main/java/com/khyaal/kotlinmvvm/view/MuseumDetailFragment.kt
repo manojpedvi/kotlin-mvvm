@@ -1,5 +1,6 @@
 package com.khyaal.kotlinmvvm.view
 
+import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -29,10 +30,17 @@ class MuseumDetailFragment : Fragment() {
         Glide.with(imageView.context).load(museum.photo).into(imageView)
     }
 
+    @Suppress("DEPRECATION")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        arguments?.getParcelable<Museum>("MUSEUM")?.let {
-            populate(it, view)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            arguments?.getParcelable("MUSEUM", Museum::class.java)?.let {
+                populate(it, view)
+            }
+        } else {
+            arguments?.getParcelable<Museum>("MUSEUM")?.let {
+                populate(it, view)
+            }
         }
     }
 }
