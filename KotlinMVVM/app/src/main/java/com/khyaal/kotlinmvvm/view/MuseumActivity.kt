@@ -1,4 +1,4 @@
-package com.emedinaa.kotlinmvvm.view
+package com.khyaal.kotlinmvvm.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,11 +7,11 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.emedinaa.kotlinmvvm.R
-import com.emedinaa.kotlinmvvm.di.Injection
+import com.khyaal.kotlinmvvm.R
+import com.khyaal.kotlinmvvm.di.Injection
 
 /**
- * @author Eduardo Medina
+ 
  * https://developer.android.com/guide/navigation/navigation-ui
  */
 

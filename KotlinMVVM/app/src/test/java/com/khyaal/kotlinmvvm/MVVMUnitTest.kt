@@ -1,12 +1,12 @@
-package com.emedinaa.kotlinmvvm
+package com.khyaal.kotlinmvvm
 
 import android.app.Application
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
-import com.emedinaa.kotlinmvvm.data.OperationResult
-import com.emedinaa.kotlinmvvm.model.Museum
-import com.emedinaa.kotlinmvvm.model.MuseumRepository
-import com.emedinaa.kotlinmvvm.viewmodel.MuseumViewModel
+import com.khyaal.kotlinmvvm.data.OperationResult
+import com.khyaal.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.model.MuseumRepository
+import com.khyaal.kotlinmvvm.viewmodel.MuseumViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.test.TestCoroutineDispatcher
 import kotlinx.coroutines.test.resetMain
@@ -22,9 +22,6 @@ import org.mockito.Mockito.`when`
 import org.mockito.Mockito.mock
 import org.mockito.MockitoAnnotations
 
-/**
- * @author Eduardo Medina
- */
 class MVVMUnitTest {
 
     @Mock

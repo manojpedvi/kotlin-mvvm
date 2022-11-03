@@ -1,4 +1,4 @@
-package com.emedinaa.kotlinmvvm.view
+package com.khyaal.kotlinmvvm.view
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,11 +7,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.emedinaa.kotlinmvvm.R
-import com.emedinaa.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.R
+import com.khyaal.kotlinmvvm.model.Museum
 
 /**
- * @author Eduardo Medina
+ 
  */
 class MuseumAdapter(
     private var museums: List<Museum>,

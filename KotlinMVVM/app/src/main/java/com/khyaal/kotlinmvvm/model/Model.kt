@@ -1,10 +1,10 @@
-package com.emedinaa.kotlinmvvm.model
+package com.khyaal.kotlinmvvm.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 /**
- * @author : Eduardo Medina
+ 
  * @since : 11/17/18
  * https://developer.android.com/kotlin/parcelize
  */

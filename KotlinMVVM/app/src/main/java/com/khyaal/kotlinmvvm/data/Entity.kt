@@ -1,10 +1,7 @@
-package com.emedinaa.kotlinmvvm.data
+package com.khyaal.kotlinmvvm.data
 
-import com.emedinaa.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.model.Museum
 
-/**
- * @author Eduardo Medina
- */
 data class MuseumResponse(val status: Int?, val msg: String?, val data: List<Museum>?) {
     fun isSuccess(): Boolean = (status == 200)
 }

@@ -1,20 +1,18 @@
-package com.emedinaa.kotlinmvvm.viewmodel
+package com.khyaal.kotlinmvvm.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.emedinaa.kotlinmvvm.data.ApiClient
-import com.emedinaa.kotlinmvvm.data.MuseumRemoteDataSource
-import com.emedinaa.kotlinmvvm.data.OperationResult
-import com.emedinaa.kotlinmvvm.model.Museum
-import com.emedinaa.kotlinmvvm.model.MuseumRepository
+import com.khyaal.kotlinmvvm.data.OperationResult
+import com.khyaal.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.model.MuseumRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 /**
- * @author Eduardo Medina
+ 
  */
 class MuseumViewModel(private val repository: MuseumRepository) : ViewModel() {
 

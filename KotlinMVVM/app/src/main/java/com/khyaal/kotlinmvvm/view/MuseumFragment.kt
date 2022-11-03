@@ -1,4 +1,4 @@
-package com.emedinaa.kotlinmvvm.view
+package com.khyaal.kotlinmvvm.view
 
 import android.os.Bundle
 import android.util.Log
@@ -12,13 +12,13 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.emedinaa.kotlinmvvm.R
-import com.emedinaa.kotlinmvvm.di.Injection
-import com.emedinaa.kotlinmvvm.model.Museum
-import com.emedinaa.kotlinmvvm.viewmodel.MuseumViewModel
+import com.khyaal.kotlinmvvm.R
+import com.khyaal.kotlinmvvm.di.Injection
+import com.khyaal.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.viewmodel.MuseumViewModel
 
 /**
- * @author Eduardo Medina
+ 
  */
 private const val TAG = "MuseumFragment"
 

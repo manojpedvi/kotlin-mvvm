@@ -1,4 +1,4 @@
-package com.emedinaa.kotlinmvvm.view
+package com.khyaal.kotlinmvvm.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,11 +8,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
-import com.emedinaa.kotlinmvvm.R
-import com.emedinaa.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.R
+import com.khyaal.kotlinmvvm.model.Museum
 
 /**
- * @author Eduardo Medina
+ 
  */
 class MuseumDetailFragment : Fragment() {
 

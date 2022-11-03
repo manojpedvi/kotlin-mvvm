@@ -1,11 +1,11 @@
-package com.emedinaa.kotlinmvvm
+package com.khyaal.kotlinmvvm
 
-import com.emedinaa.kotlinmvvm.data.OperationResult
-import com.emedinaa.kotlinmvvm.model.Museum
-import com.emedinaa.kotlinmvvm.data.MuseumDataSource
+import com.khyaal.kotlinmvvm.data.OperationResult
+import com.khyaal.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.data.MuseumDataSource
 
 /**
- * @author Eduardo Medina
+ 
  */
 class FakeMuseumDataSource : MuseumDataSource {
 

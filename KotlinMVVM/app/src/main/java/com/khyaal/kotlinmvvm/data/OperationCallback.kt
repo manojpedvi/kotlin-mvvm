@@ -1,4 +1,4 @@
-package com.emedinaa.kotlinmvvm.data
+package com.khyaal.kotlinmvvm.data
 
 interface OperationCallback<T> {
     fun onSuccess(data:List<T>?)

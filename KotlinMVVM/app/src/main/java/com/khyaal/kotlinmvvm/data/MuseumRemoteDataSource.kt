@@ -1,9 +1,9 @@
-package com.emedinaa.kotlinmvvm.data
+package com.khyaal.kotlinmvvm.data
 
-import com.emedinaa.kotlinmvvm.model.Museum
+import com.khyaal.kotlinmvvm.model.Museum
 
 /**
- * @author Eduardo Medina
+ 
  */
 class MuseumRemoteDataSource(apiClient: ApiClient) : MuseumDataSource {
 

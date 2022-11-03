@@ -8,7 +8,7 @@ plugins {
 android {
     compileSdkVersion rootProject.compileSdkVersion
     defaultConfig {
-        applicationId "com.emedinaa.kotlinmvvm"
+        applicationId "com.khyaal.kotlinmvvm"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode 1

@@ -1,11 +1,11 @@
-package com.emedinaa.kotlinmvvm.viewmodel
+package com.khyaal.kotlinmvvm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.emedinaa.kotlinmvvm.model.MuseumRepository
+import com.khyaal.kotlinmvvm.model.MuseumRepository
 
 /**
- * @author Eduardo Medina
+ 
  */
 
 class ViewModelFactory(private val repository: MuseumRepository) : ViewModelProvider.Factory {

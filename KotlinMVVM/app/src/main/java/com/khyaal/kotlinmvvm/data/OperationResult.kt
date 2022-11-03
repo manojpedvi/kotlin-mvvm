@@ -1,7 +1,7 @@
-package com.emedinaa.kotlinmvvm.data
+package com.khyaal.kotlinmvvm.data
 
 /**
- * @author : Eduardo Medina
+ 
  * @see : https://phauer.com/2019/sealed-classes-exceptions-kotlin/
  */
 sealed class OperationResult<out T> {

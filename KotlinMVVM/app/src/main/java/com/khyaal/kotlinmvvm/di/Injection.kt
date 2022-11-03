@@ -1,14 +1,14 @@
-package com.emedinaa.kotlinmvvm.di
+package com.khyaal.kotlinmvvm.di
 
 import androidx.lifecycle.ViewModelProvider
-import com.emedinaa.kotlinmvvm.data.ApiClient
-import com.emedinaa.kotlinmvvm.data.MuseumDataSource
-import com.emedinaa.kotlinmvvm.data.MuseumRemoteDataSource
-import com.emedinaa.kotlinmvvm.model.MuseumRepository
-import com.emedinaa.kotlinmvvm.viewmodel.ViewModelFactory
+import com.khyaal.kotlinmvvm.data.ApiClient
+import com.khyaal.kotlinmvvm.data.MuseumDataSource
+import com.khyaal.kotlinmvvm.data.MuseumRemoteDataSource
+import com.khyaal.kotlinmvvm.model.MuseumRepository
+import com.khyaal.kotlinmvvm.viewmodel.ViewModelFactory
 
 /**
- * @author Eduardo Medina
+ 
  */
 object Injection {
     private var museumDataSource: MuseumDataSource? = null
